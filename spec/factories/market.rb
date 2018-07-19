@@ -11,6 +11,8 @@ FactoryBot.define do
       bid_fee       0.0015
       ask_precision 4
       bid_precision 4
+      min_bid_price 0.0
+      min_ask_price 0.0
       position      1
       enabled       true
     end
@@ -23,6 +25,8 @@ FactoryBot.define do
       bid_fee       0.0015
       ask_precision 4
       bid_precision 4
+      min_bid_price 0.0
+      min_ask_price 0.0
       position      2
       enabled       true
     end
@@ -35,6 +39,8 @@ FactoryBot.define do
       bid_fee       0.0015
       ask_precision 4
       bid_precision 4
+      min_bid_price 0.0
+      min_ask_price 0.0
       position      3
       enabled       true
     end
